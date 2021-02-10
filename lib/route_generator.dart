@@ -1,8 +1,7 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-
-import 'first_page.dart';
-import 'second_page.dart';
+import 'home_page.dart';
+import 'detail_page.dart';
 
 
 class RouteGenerator {
@@ -12,12 +11,12 @@ class RouteGenerator {
 
     switch (settings.name) {
       case '/':
-        return MaterialPageRoute(builder: (_) => FirstPage());
+        return MaterialPageRoute(builder: (_) => HomePage());
       case '/second':
       // Validation of correct data type
         if (args is String) {
           return MaterialPageRoute(
-            builder: (_) => SecondPage(
+            builder: (_) => DetailPage(
               data: args,
             ),
           );
