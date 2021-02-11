@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'widgets/open_card.dart';
-import 'widgets/rocket_card.dart';
+import '../widgets/open_card.dart';
+import '../widgets/rocket_card.dart';
 
 class HomePage extends StatelessWidget {
   @override
@@ -55,7 +55,7 @@ class HomePage extends StatelessWidget {
                                       unselectedLabelColor: Colors.black,
                                       indicatorColor: Color(0xffFF003D),
                                       labelStyle: TextStyle(
-                                          fontSize: 23.0, fontFamily: 'San'),
+                                          fontSize: 21.0, fontFamily: 'San'),
                                       indicator: UnderlineTabIndicator(
                                           borderSide: BorderSide(
                                               width: 3,

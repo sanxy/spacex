@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:spacex_app/detail_page.dart';
+import 'package:spacex_app/ui/detail_page.dart';
 
 openCard({BuildContext context, String name, Widget image, String date, String company}) {
 

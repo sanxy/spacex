@@ -1,7 +1,7 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'home_page.dart';
-import 'detail_page.dart';
+import 'ui/home_page.dart';
+import 'ui/detail_page.dart';
 
 
 class RouteGenerator {
