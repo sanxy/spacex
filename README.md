@@ -1,6 +1,7 @@
 # spacex_app
 
-A new Flutter application.
+Flutter application for spacex.
+
 
 ## Screenshots
 ### Android
