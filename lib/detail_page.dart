@@ -1,12 +1,10 @@
 import 'package:flutter/material.dart';
 
 class DetailPage extends StatelessWidget {
-  // This is a String for the sake of an example.
-  // You can use any type you want.
-  final String data;
+  //constant
   final image, name, company, date;
 
-  DetailPage({this.name, this.image, this.date, this.company, this.data});
+  DetailPage({this.name, this.image, this.date, this.company});
 
   @override
   Widget build(BuildContext context) {
@@ -300,23 +298,23 @@ class DetailPage extends StatelessWidget {
                       physics: BouncingScrollPhysics(
                           parent: AlwaysScrollableScrollPhysics()),
                       children: [
-                        Image.asset("assets/images/launch.png"),
+                        Image.asset("assets/images/rocket.png"),
                         SizedBox(
                           width: 3,
                         ),
-                        Image.asset("assets/images/launch.png"),
+                        Image.asset("assets/images/ready.jpg"),
                         SizedBox(
                           width: 3,
                         ),
-                        Image.asset("assets/images/launch.png"),
+                        Image.asset("assets/images/space.jpg"),
                         SizedBox(
                           width: 3,
                         ),
-                        Image.asset("assets/images/launch.png"),
+                        Image.asset("assets/images/workstation.jpg"),
                         SizedBox(
                           width: 3,
                         ),
-                        Image.asset("assets/images/launch.png"),
+                        Image.asset("assets/images/sunset.jpg"),
                       ],
                     ),
                   )

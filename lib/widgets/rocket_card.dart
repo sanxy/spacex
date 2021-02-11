@@ -8,8 +8,8 @@ rocketCard(
       child: Container(
         height: 128,
         decoration: BoxDecoration(
-            color: Colors.white,
-            borderRadius: BorderRadius.circular(6),
+          color: Colors.white,
+          borderRadius: BorderRadius.circular(6),
         ),
         child: Row(
           children: [
@@ -29,7 +29,9 @@ rocketCard(
                 Text(
                   "LAUNCH",
                   style: TextStyle(
-                      fontFamily: "Sans", color: Color(0xffFF003D), fontSize: 10),
+                      fontFamily: "Sans",
+                      color: Color(0xffFF003D),
+                      fontSize: 10),
                 ),
                 SizedBox(
                   height: 9,
