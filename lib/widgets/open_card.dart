@@ -3,16 +3,13 @@ import 'package:spacex_app/detail_page.dart';
 
 openCard({BuildContext context, String name, Widget image, String date, String company}) {
 
-  return GestureDetector(
+  return InkWell(
     onTap: () => {
       Navigator.of(context).push(
-        // With MaterialPageRoute, you can pass data between pages,
-        // but if you have a more complex app, you will quickly get lost.
         MaterialPageRoute(
-          builder: (context) =>
-              DetailPage(data: 'Hello there from the first page!'),
+          builder: (context) => DetailPage(company: company, date: date, image: image, name: name),
         ),
-      )
+      ),
     },
     child: Padding(
       padding: const EdgeInsets.all(20),
